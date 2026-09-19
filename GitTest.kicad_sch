@@ -786,7 +786,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 76.2 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -994,7 +994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 74.422 123.19 90)
 			(hide yes)
 			(show_name no)
