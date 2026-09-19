@@ -764,7 +764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "266460d9-1bea-4740-aa94-960ce5a87eff")
-		(property "Reference" "D?"
+		(property "Reference" "D1"
 			(at 80.01 136.2074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -786,7 +786,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 76.2 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -839,7 +839,7 @@
 		(instances
 			(project "GitTest"
 				(path "/b547b56b-9bed-4878-9909-a8b350d373a3"
-					(reference "D?")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -857,7 +857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b58d0e09-fd32-4266-b35c-e00ac03b8dbc")
-		(property "Reference" "BT?"
+		(property "Reference" "BT1"
 			(at 92.71 127.6984 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -879,7 +879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:BatteryHolder_Keystone_2479_3xAAA"
 			(at 88.9 129.286 90)
 			(hide yes)
 			(show_name no)
@@ -954,7 +954,7 @@
 		(instances
 			(project "GitTest"
 				(path "/b547b56b-9bed-4878-9909-a8b350d373a3"
-					(reference "BT?")
+					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -972,7 +972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7a361ed-0c0e-48f6-bcd8-42eb44b71f5e")
-		(property "Reference" "R?"
+		(property "Reference" "R1"
 			(at 78.74 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -994,7 +994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 74.422 123.19 90)
 			(hide yes)
 			(show_name no)
@@ -1036,7 +1036,7 @@
 		(instances
 			(project "GitTest"
 				(path "/b547b56b-9bed-4878-9909-a8b350d373a3"
-					(reference "R?")
+					(reference "R1")
 					(unit 1)
 				)
 			)
