@@ -163,7 +163,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 105.41 60.96 0)
+		(at 52.07 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -174,7 +174,7 @@
 		(fields_autoplaced yes)
 		(uuid "388dcc53-a4c4-4f7b-8261-89453f8e07da")
 		(property "Reference" "C?"
-			(at 109.22 59.6899 0)
+			(at 55.88 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -185,7 +185,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 109.22 62.2299 0)
+			(at 55.88 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -196,7 +196,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.3752 64.77 0)
+			(at 53.0352 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -207,7 +207,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 60.96 0)
+			(at 52.07 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -218,7 +218,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 105.41 60.96 0)
+			(at 52.07 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -233,6 +233,88 @@
 		)
 		(pin "1"
 			(uuid "33e170d0-bbd8-4b41-bece-02d878169528")
+		)
+		(instances
+			(project "GitTest"
+				(path "/b547b56b-9bed-4878-9909-a8b350d373a3"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 67.31 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71dd023a-51da-4218-b076-9514b2df2925")
+		(property "Reference" "C?"
+			(at 71.12 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 71.12 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.2752 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 67.31 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8790cca4-fe6a-4792-83e7-2583b7f7b8c3")
+		)
+		(pin "2"
+			(uuid "9055d090-94ab-4269-ba55-cda8dac04e91")
 		)
 		(instances
 			(project "GitTest"
